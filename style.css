@@ -1,0 +1,197 @@
+
+*{
+    margin: 0;
+}
+
+header{
+    background-color: #A9B388;
+    justify-content: space-between;
+    z-index: 3;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    flex-direction: row;
+}
+
+header img {
+    height: 120px;
+    width: 240px;
+    margin-left: 25px;
+}
+
+.enlace {
+    text-decoration: none;
+    color: white;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin-left: 10px;
+    margin-top: 45px;
+    margin-right: 15px;
+    font-size: 20px;
+    font-family: Montserrat;
+    text-decoration: none;
+}
+
+body h1{
+    color: #5F6F52;
+    margin-top: 50px;
+    margin-left: 5%;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.cuerpo{
+    color: gray;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    font-family: Montserrat;
+}
+.muestras{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    text-align: center;
+}
+
+section div{
+    background-color: #B99470;
+    width: 25%;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+section div:hover{
+    background-color: #5F6F52;
+    width: 25%;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+h2{
+    color:white;
+    font-family: Montserrat;
+    margin-top: 10px;
+}
+
+section div p{
+    color: white;
+    font-family: Montserrat;
+}
+
+body h3{
+    color: #5F6F52;
+    margin-top: 50px;
+    margin-left: 5%;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+#favoritas{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    align-items: center;
+}
+#favoritas img{
+    margin-top: 10px;
+    width: 30%;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+#favoritas img:hover{
+    transform: scale(1.2);
+    transition: transform .3s;
+    margin-top: 10px;
+    width: 30%;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+#maria{
+    margin-top: 50px;
+    background-color: #5F6F52;
+    display: flex;
+    flex-direction: row;
+}
+iframe{
+    padding: 25px;
+}
+#mariatexto{
+    padding: 40px;
+    margin-left: 30px;
+}
+#mariatexto h4{
+    color: white;
+    font-family: Montserrat;
+}
+#mariatexto p{
+    color: white;
+    font-family: Montserrat;
+}
+#mapa{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+#mapa div{
+    margin-top: 15%;
+    width: 45%;
+}
+#mapa p{
+    font-family: Montserrat;
+    text-align: center;
+}
+footer{
+    background-color: #B99470;
+    width: 100%;
+    margin-top: 45px;
+}
+footer h4{
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    padding: 25px;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    margin-top:0;
+}
+#boton{
+    margin-left: 40%;
+    background-color: #A9B388;
+    border: #A9B388;
+    height: 50px;
+    width: 340px;
+    color: white;
+    font-family: Montserrat;
+    margin-bottom: 25px;
+}
+#boton:hover{
+    transform: scale(1.2);
+    transition: transform .3s;
+    margin-left: 40%;
+    background-color: #5F6F52;
+    border: #5F6F52;
+    height: 50px;
+    width: 340px;
+    color: white;
+    font-family: Montserrat;
+    margin-bottom: 25px;
+}
